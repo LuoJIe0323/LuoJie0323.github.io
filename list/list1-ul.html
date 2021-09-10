@@ -1,0 +1,59 @@
+<!-- 列表是网页中最常用的一种数据排列方式，我们在浏览网页时，会到看到各种列表 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表</title>
+</head>
+
+<body>
+    <!-- 在HTML中，列表共有3种：有序列表、无序列表和定义列表。 -->
+
+    <!-- 有序列表 -->
+    <!-- 有序列表从<ol>开始，到</ol>结束。有序列表的列表项是有先后顺序的，一般采用数字或字母作为顺序，默认是采用数字顺序。 -->
+    <!-- ol，即ordered list（有序列表）；li，即list（列表项） -->
+    <!-- <ol>和</ol>标志着有序列表的开始和结束，而<li>和</li>标签表示这是一个列表项。一个有序列表可以包含多个列表项 -->
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Vue.js</li>
+    </ol>
+    <!-- 在HTML中，我们可以使用type属性来改变列表项符号。默认情况下，有序列表使用数字作为列表项符号。 -->
+    <!-- <ol type="属性值">  属性值可以是1; a; A; i; I 后续学习中将由css操作修改-->
+    <ol type="i">
+        <li>列表项</li>
+        <li>列表项</li>
+        <li>列表项</li>
+    </ol>
+    <hr />
+
+    <!-- 在无序列表中，列表项之间是没有先后顺序之分的。 -->
+    <!-- < type="属性值">  type属性取值: disc 实心圆●（默认值） circle 空心圆○ square 正方形■ -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Vue.js</li>
+    </ul>
+    <hr />
+
+    <!-- 定义列表是一组带有特殊含义的列表，一个列表项中包含“条件”和“列表”两部分。 -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>制作网页的标准语言，控制网页的结构</dd>
+        <dt>CSS</dt>
+        <dd>层叠样式表，控制网页的样式</dd>
+        <dt>JavaScript</dt>
+        <dd>脚本语言，控制网页的行为</dd>
+    </dl>
+
+</body>
+
+</html>

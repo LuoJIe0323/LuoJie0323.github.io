@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>表格基本结构</title>
+    <!-- 默认情况下，表格是没有边框的。
+    在这个例子中，使用CSS加入边框，是想让大家更清楚地看到一个表格结构。 -->
+    <style type="text/css">
+        table,
+        tr,
+        td {
+            border: 1px solid rgb(255, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 在HTML中，一个表格一般会由以下3个部分组成。
+    （1）表格：table标签
+    （2）行：tr标签
+    （3）单元格：td标签 -->
+
+    <!-- tr，指的是table row（表格行）；td，指的是table data cell（表格单元格） -->
+    <!-- <table>和</table>表示整个表格的开始和结束，
+    <tr>和</tr>表示行的开始和结束，
+    <td>和</td>表示单元格的开始和结束。 
+    在表格中，有多少组“<tr></tr>”，就表示有多少行。-->
+    <table>
+        <tr>
+            <td>HTML</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Nodejs</td>
+        </tr>
+    </table>
+</body>
+
+</html>
